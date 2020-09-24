@@ -90,6 +90,11 @@ ul {
   border-radius: 10px;
 }
 
+.width-500 {
+  width: 500px;
+  padding: 20px;
+}
+
 .top-header {
   grid-template-columns: min-content minmax(140px, 2fr) 0 minmax(100px, 350px);
   height: 103px;
@@ -222,11 +227,6 @@ ul {
   font-size: 28px;
 }
 
-.latest-cont {
-  width: 500px;
-  padding: 20px;
-}
-
 .date {
   font-size: 10px;
 }
@@ -254,8 +254,6 @@ ul {
 }
 
 .latest-features {
-  width: 500px;
-  padding: 20px;
   background-color: rgb(59, 59, 59);
   border-radius: 8px;
   border: 0;
@@ -268,11 +266,6 @@ ul {
 
 .have-acc {
   font-weight: 100;
-}
-
-.shopify-logo {
-  width: 500px;
-  padding: 20px;
 }
 
 .shopify-logo p {
@@ -295,7 +288,7 @@ ul {
 }
 
 .smashing-tv {
-  width: 1500px;
+  width: 1400px;
   height: 661px;
   background-color: rgb(59, 59, 59);
   padding: 40px;
@@ -419,5 +412,4 @@ ul {
 
 .commitment {
   padding: 30px 0;
-  width: 500px;
 }
