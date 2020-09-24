@@ -34,6 +34,10 @@ a {
   margin-top: 10px;
 }
 
+.flex {
+  display: flex;
+}
+
 .menu {
   list-style: none;
   display: flex;
@@ -133,4 +137,107 @@ a {
 .fa-long-arrow-alt-right {
   padding-top: 60px;
   font-size: 40px;
+}
+
+.membership {
+  position: relative;
+  height: 460px;
+  background: rgb(180, 179, 179);
+}
+
+.membership-img {
+  position: absolute;
+  right: 150px;
+  bottom: 250px;
+}
+
+.membership-cont {
+  width: 700px;
+  font-size: 20px;
+  padding-left: 125px;
+}
+
+.membership-cont p{
+  margin: 0;
+  padding-top: 80px;
+  line-height: 1.5em;
+}
+
+.membership-list li{
+  padding: 10px 0;
+}
+
+.smashing-btn {
+  color: white;
+  font-size: 24px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(87, 87, 87);
+}
+
+.latest-articles h3 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.latest-cont {
+  width: 480px;
+  padding: 20px;
+  background: lightgrey;
+}
+
+.latest-cont p {
+  font-size: 22px;
+  line-height: 1.5em;
+}
+
+.latest-top {
+  height: 542px;
+}
+
+.latest-mid {
+  height: 800px;
+}
+
+.latest-features {
+  color: white;
+  width: 480px;
+  text-align: center;
+  padding: 50px 75px;
+  background-color: rgb(59, 59, 59);
+  border-radius: 8px;
+  border: 0;
+}
+
+.latest-features p {
+  font-size: 22px;
+  line-height: 1.5em;
+}
+
+.latest-features button {
+  padding: 20px;
+  font-size: 22px;
+  border-radius: 10px;
+}
+
+.shopify-logo {
+  width: 480px;
+  padding: 20px;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+.shopify-logo p {
+  font-size: 22px;
+  line-height: 1.5em;
+}
+
+.shopify-info {
+  padding: 25px 0;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.shopify-info button {
+  padding: 10px 20px;
+  background-color: rgb(117, 117, 117);
 }
