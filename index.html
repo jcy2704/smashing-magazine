@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
   <meta charset="UTF-8">
@@ -14,12 +14,12 @@
 
 <body>
   <div class="font">
-    <header class="top-header font">
+    <header class="top-header font g-bgc bbx grid">
       <div class="logo">
         <img class="logo-img" src="assets/logo--full.svg" alt="logo">
       </div>
-      <nav class="nav-bar">
-        <ul class="menu">
+      <nav class="nav-bar bbx">
+        <ul class="menu flex">
           <li>
             <a href="#">Articles</a>
           </li>
@@ -52,8 +52,8 @@
 
     <main class="main-container">
       <div class="articles-container">
-        <div class="title-cont">
-          <h1 class="main-title">
+        <div class="title-cont pos-abs center text-center">
+          <h1 class="main-title white">
             <span>
               Don't Miss These Latest
               <br>
@@ -61,17 +61,39 @@
             </span>
           </h1>
         </div>
-        <div class="articles-grid">
+        <div class="articles-grid grid two-col">
           <article class="ft-article">
             <a href="#"><img src="https://via.placeholder.com/100
-            " alt=""></a>
-            <div class="author-cont">
+            " alt="placeholder"></a>
+            <div class="author-cont pos-rel">
               <a href="#">
-                <p class="author">Saskia Freeke</p>
+                <p class="author font-20">Saskia Freeke</p>
               </a>
             </div>
-            <h1><a href="#">Unexpected Learnings From Coding Artwork Every Day for Five Years</a></h1>
-            <p class="comment"><a href="#"><i class="fas fa-comment-alt"></i> Leave a comment</a></p>
+            <h2><a href="#">Unexpected Learnings From Coding Artwork Every Day for Five Years</a></h2>
+            <p class="comment font-20"><a href="#"><i class="fas fa-comment-alt"></i> Leave a comment</a></p>
+            <div class="tags">
+              <a href="#">
+                <p># Design</p>
+              </a>
+              <a href="#">
+                <p># Graphics</p>
+              </a>
+            </div>
+            <div class="arrow">
+              <a href="#"><i class="fas fa-long-arrow-alt-right font-40"></i></a>
+            </div>
+          </article>
+          <article class="ft-article">
+            <a href="#"><img src="https://via.placeholder.com/100
+            " alt="placeholder"></a>
+            <div class="author-cont">
+              <a href="#">
+                <p class="author font-20">Saskia Freeke</p>
+              </a>
+            </div>
+            <h2><a href="#">Unexpected Learnings From Coding Artwork Every Day for Five Years</a></h2>
+            <p class="comment font-20"><a href="#"><i class="fas fa-comment-alt"></i> Leave a comment</a></p>
             <div class="tags">
               <a href="#">
                 <p># Design</p>
@@ -86,14 +108,14 @@
           </article>
           <article class="ft-article">
             <a href="#"><img src="https://via.placeholder.com/100
-            " alt=""></a>
+            " alt="placeholder"></a>
             <div class="author-cont">
               <a href="#">
-                <p class="author">Saskia Freeke</p>
+                <p class="author font-20">Saskia Freeke</p>
               </a>
             </div>
-            <h1><a href="#">Unexpected Learnings From Coding Artwork Every Day for Five Years</a></h1>
-            <p class="comment"><a href="#"><i class="fas fa-comment-alt"></i> Leave a comment</a></p>
+            <h2><a href="#">Unexpected Learnings From Coding Artwork Every Day for Five Years</a></h2>
+            <p class="comment font-20"><a href="#"><i class="fas fa-comment-alt"></i> Leave a comment</a></p>
             <div class="tags">
               <a href="#">
                 <p># Design</p>
@@ -108,36 +130,14 @@
           </article>
           <article class="ft-article">
             <a href="#"><img src="https://via.placeholder.com/100
-            " alt=""></a>
+            " alt="placeholder"></a>
             <div class="author-cont">
               <a href="#">
-                <p class="author">Saskia Freeke</p>
+                <p class="author font-20">Saskia Freeke</p>
               </a>
             </div>
-            <h1><a href="#">Unexpected Learnings From Coding Artwork Every Day for Five Years</a></h1>
-            <p class="comment"><a href="#"><i class="fas fa-comment-alt"></i> Leave a comment</a></p>
-            <div class="tags">
-              <a href="#">
-                <p># Design</p>
-              </a>
-              <a href="#">
-                <p># Graphics</p>
-              </a>
-            </div>
-            <div class="arrow">
-              <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
-            </div>
-          </article>
-          <article class="ft-article">
-            <a href="#"><img src="https://via.placeholder.com/100
-            " alt=""></a>
-            <div class="author-cont">
-              <a href="#">
-                <p class="author">Saskia Freeke</p>
-              </a>
-            </div>
-            <h1><a href="#">Unexpected Learnings From Coding Artwork Every Day for Five Years</a></h1>
-            <p class="comment"><a href="#"><i class="fas fa-comment-alt"></i> Leave a comment</a></p>
+            <h2><a href="#">Unexpected Learnings From Coding Artwork Every Day for Five Years</a></h2>
+            <p class="comment font-20"><a href="#"><i class="fas fa-comment-alt"></i> Leave a comment</a></p>
             <div class="tags">
               <a href="#">
                 <p># Design</p>
@@ -153,8 +153,8 @@
         </div>
       </div>
       <div class="bot-section">
-        <div class="membership">
-          <div class="membership-cont">
+        <div class="membership pos-rel">
+          <div class="membership-cont font-20">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam reiciendis enim corporis quaerat at rem
               adipisci, aperiam laudantium. Iste commodi cumque recusandae architecto ad! Recusandae distinctio
               obcaecati culpa temporibus blanditiis!</p>
@@ -163,17 +163,17 @@
               <li>new discounts on tools services</li>
               <li>... plus a seasoned selection of fancy cats</li>
             </ul>
-            <button class="smashing-btn" type="button">About Smashing membership -></button>
+            <button class="smashing-btn font-24 rounded white" type="button">About Smashing membership -></button>
           </div>
-          <img class="membership-img" src="https://via.placeholder.com/300" alt="">
+          <img class="membership-img pos-abs" src="https://via.placeholder.com/300" alt="placeholder">
         </div>
 
         <section class="latest-articles lg-bgc">
-          <div class="flex latest-top">
-            <div class="latest-cont">
+          <div class="flex latest-top space-arnd">
+            <div class="latest-cont lg-bgc">
               <p class="date">3 days ago</p>
               <h3>How to build rapport with design clients</h3>
-              <p class=" article-author">by Matt Saunders</p>
+              <p class=" article-author font-12">by Matt Saunders</p>
               <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A sed officia delectus
                 corrupti nisi corporis
                 dolores veritatis iure ipsam eligendi id sequi, maiores nobis temporibus dolorem est, quisquam, cumque
@@ -199,17 +199,17 @@
             </div>
           </div>
 
-          <div class="flex latest-mid">
-            <div class="shopify-logo">
+          <div class="flex latest-mid space-arnd">
+            <div class="shopify-logo text-center lg-bgc">
               <p>Our friends and supporters</p>
-              <div class="shopify-info">
-                <img src="https://via.placeholder.com/200x50" alt="">
+              <div class="shopify-info rounded">
+                <img src="https://via.placeholder.com/200x50" alt="placeholder">
                 <p>Earn recurring revenue designing and devloping eCommerce stores</p>
                 <button type="button">Sign up today</button>
               </div>
             </div>
-            <div class="latest-features">
-              <img src="https://via.placeholder.com/200" alt="">
+            <div class="latest-features text-center white">
+              <img src="https://via.placeholder.com/200" alt="placeholder">
               <div class="latest-ft-cont">
                 <h2>1,699 smashing members</h2>
                 <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis labore harum rem
@@ -217,8 +217,8 @@
                   debitis ipsum alias repellat, laborum eos. Delectus, corporis! Dolorum, ullam numquam temporibus
                   explicabo provident iure eligendi?</p>
               </div>
-              <button type="button">Explore Features</button>
-              <p class="have-acc">Already have an account? Sign in!</p>
+              <button class="rounded" type="button">Explore Features</button>
+              <p class="have-acc font-12">Already have an account? Sign in!</p>
             </div>
             <div class="latest-cont">
               <p class="date">3 days ago</p>
@@ -262,44 +262,48 @@
             </div>
           </div>
 
-          <div class="smashing-tv font">
-            <img src="https://via.placeholder.com/250" alt="">
+          <div class="smashing-tv rounded font center text-center bbx">
+            <img src="https://via.placeholder.com/250" alt="placeholder">
             <h2><a href="#">New on Smashing TV</a></h2>
-            <p class="tv-paragraph font">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores officia nulla
+            <p class="tv-paragraph font-20 font">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              officia nulla
               placeat cumque.</p>
-            <button class="smashing-btn type=" button">See all upcoming episodes -></button>
+            <button class="smashing-btn" type="button">See all upcoming episodes -></button>
             <p class="tv-have-acc"><a href="#">Already have an account? Sign in!</a></p>
           </div>
-          <div class="all-latest">
+          <div class="all-latest text-center">
             <p><a href="#">See All Latest Articles</a></p>
           </div>
         </section>
 
-        <section class="click">
+        <section class="click text-center">
           <p>June 2020 Shipping Now</p>
           <h2><a href="">Meet Click!: encourage clicks without shady tricks</a></h2>
-          <p class="click-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolor reiciendis labore optio
+          <p class="click-p font-24">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolor
+            reiciendis labore optio
             quisquam</p>
-          <button type="button">Jump to table of contents</button>
-          <img src="https://via.placeholder.com/400" alt="">
+          <button class="rounded" type="button">Jump to table of contents</button>
+          <img src="https://via.placeholder.com/400" alt="placeholder">
         </section>
 
         <section class="curated-articles lg-bgc">
           <div class="curated-title">
-            <div class="curated-week">
-              <img src="https://via.placeholder.com/250" alt="">
-              <div class="week-content">
+            <div class="curated-week center">
+              <img src="https://via.placeholder.com/250" alt="placeholder">
+              <div class="week-content pos-rel">
                 <h3>Person of the Week</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum ducimus neque eos! Ratione ipsum voluptate
-                  in autem nemo consectetur. Natus ea voluptatibus assumenda sint sapiente dolore accusamus nulla provident
-                illo?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum ducimus neque eos! Ratione ipsum
+                  voluptate
+                  in autem nemo consectetur. Natus ea voluptatibus assumenda sint sapiente dolore accusamus nulla
+                  provident
+                  illo?</p>
               </div>
             </div>
           </div>
 
-          <div class="curated-grid">
+          <div class="curated-grid grid two-col">
             <div>
-              <img src="https://via.placeholder.com/80" alt="">
+              <img src="https://via.placeholder.com/80" alt="placeholder">
               <div class="curated-item">
                 <p>Katie Hempenius wrote</p>
                 <h3>content delivery network</h3>
@@ -307,7 +311,7 @@
               </div>
             </div>
             <div>
-                <img src="https://via.placeholder.com/80" alt="">
+              <img src="https://via.placeholder.com/80" alt="placeholder">
               <div class="curated-item">
                 <p>Katie Hempenius wrote</p>
                 <h3>content delivery network</h3>
@@ -315,7 +319,7 @@
               </div>
             </div>
             <div>
-                <img src="https://via.placeholder.com/80" alt="">
+              <img src="https://via.placeholder.com/80" alt="placeholder">
               <div class="curated-item">
                 <p>Katie Hempenius wrote</p>
                 <h3>content delivery network</h3>
@@ -323,7 +327,7 @@
               </div>
             </div>
             <div>
-                <img src="https://via.placeholder.com/80" alt="">
+              <img src="https://via.placeholder.com/80" alt="placeholder">
               <div class="curated-item">
                 <p>Katie Hempenius wrote</p>
                 <h3>content delivery network</h3>
@@ -331,19 +335,19 @@
               </div>
             </div>
             <div>
-                <img src="https://via.placeholder.com/80" alt="">
-                <div class="curated-item">
-                  <p>Katie Hempenius wrote</p>
-                  <h3>content delivery network</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <img src="https://via.placeholder.com/80" alt="placeholder">
+              <div class="curated-item">
+                <p>Katie Hempenius wrote</p>
+                <h3>content delivery network</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
               </div>
             </div>
             <div>
-                <img src="https://via.placeholder.com/80" alt="">
-                <div class="curated-item">
-                  <p>Katie Hempenius wrote</p>
-                  <h3>content delivery network</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <img src="https://via.placeholder.com/80" alt="placeholder">
+              <div class="curated-item">
+                <p>Katie Hempenius wrote</p>
+                <h3>content delivery network</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
               </div>
             </div>
           </div>
@@ -353,7 +357,7 @@
           </div>
         </section>
 
-        <section class="featured">
+        <section class="featured pos-rel">
           <div class="featured-cont">
             <p>Featured smashing book</p>
             <h3>Design Systems</h3>
@@ -362,58 +366,58 @@
               dolorem possimus? Cupiditate, id.</p>
             <button type="button" class="smashing-btn">Jump to table of contents -></button>
           </div>
-          <img src="https://via.placeholder.com/322x414" alt="">
+          <img class="pos-abs" src="https://via.placeholder.com/322x414" alt="placeholder">
         </section>
 
-        <section class="guides lg-bgc">
-            <div class="guide-article">
-              <p>A smashing guide to</p>
-              <h3>Javascript & Frameworks</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi perferendis ad eius laborum,
-                reprehenderit, numquam quae alias provident voluptatem officia sunt esse incidunt, est optio. Quam
-                placeat accusantium reprehenderit?</p>
-              <button type="button"> Explore Javascript & Frameworks</button>
-            </div>
-            <div class="guide-article">
-              <p>A smashing guide to</p>
-              <h3>Javascript & Frameworks</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi perferendis ad eius laborum,
-                reprehenderit, numquam quae alias provident voluptatem officia sunt esse incidunt, est optio. Quam
-                placeat accusantium reprehenderit?</p>
-              <button type="button"> Explore Javascript & Frameworks</button>
-            </div>
-            <div class="guide-article">
-              <p>A smashing guide to</p>
-              <h3>Javascript & Frameworks</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi perferendis ad eius laborum,
-                reprehenderit, numquam quae alias provident voluptatem officia sunt esse incidunt, est optio. Quam
-                placeat accusantium reprehenderit?</p>
-              <button type="button"> Explore Javascript & Frameworks</button>
-            </div>
+        <section class="guides two-col grid lg-bgc">
+          <div class="guide-article">
+            <p>A smashing guide to</p>
+            <h3>Javascript & Frameworks</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi perferendis ad eius laborum,
+              reprehenderit, numquam quae alias provident voluptatem officia sunt esse incidunt, est optio. Quam
+              placeat accusantium reprehenderit?</p>
+            <button class="smashing-btn rounded" type="button"> Explore Javascript & Frameworks</button>
+          </div>
+          <div class="guide-article">
+            <p>A smashing guide to</p>
+            <h3>Javascript & Frameworks</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi perferendis ad eius laborum,
+              reprehenderit, numquam quae alias provident voluptatem officia sunt esse incidunt, est optio. Quam
+              placeat accusantium reprehenderit?</p>
+            <button class="smashing-btn rounded" type="button"> Explore Javascript & Frameworks</button>
+          </div>
+          <div class="guide-article">
+            <p>A smashing guide to</p>
+            <h3>Javascript & Frameworks</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi perferendis ad eius laborum,
+              reprehenderit, numquam quae alias provident voluptatem officia sunt esse incidunt, est optio. Quam
+              placeat accusantium reprehenderit?</p>
+            <button class="smashing-btn rounded" type="button"> Explore Javascript & Frameworks</button>
+          </div>
 
-            <div class="guide-article g-bgc">
-              <img src="" alt="">
-              <h3>Email Newsletter</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nostrum architecto laudantium voluptates!
-                Non aliquid consequatur aspernatur pariatur corrupti, fuga eaque corporis molestias atque perspiciatis,
-                qui sint omnis, ipsam quod.</p>
-              <form action="#">
-                <input type="text">
-                <button type="button"></button>
-              </form>
-              <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum obcaecati omnis eum totam, nam ab amet
-                  dolorum debitis voluptate commodi minus?</p>
-              </div>
+          <div class="guide-article text-center g-bgc">
+            <img src="https://via.placeholder.com/200x200" alt="placeholder">
+            <h3>Email Newsletter</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nostrum architecto laudantium voluptates!
+              Non aliquid consequatur aspernatur pariatur corrupti, fuga eaque corporis molestias atque perspiciatis,
+              qui sint omnis, ipsam quod.</p>
+            <form action="#">
+              <input class="rounded white meow" type="email" placeholder="Your email">
+              <button class="rounded meow" type="button">Meow!</button>
+            </form>
+            <div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum obcaecati omnis eum totam, nam ab amet
+                dolorum debitis voluptate commodi minus?</p>
             </div>
+          </div>
         </section>
-        <div class="all-latest">
+        <div class="all-latest text-center">
           <a href="#">See all guides -></a>
         </div>
       </div>
     </main>
 
-    <footer class="footer lg-bgc">
+    <footer class="footer lg-bgc text-center">
       <p>Browse all smashing magazine topics</p>
       <ul class="topics">
         <li>•Lorem</li>
@@ -447,21 +451,20 @@
         <li>•Lorem</li>
         <li>•Lorem</li>
       </ul>
-      <div class="commitment">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure quaerat ullam deleniti porro quisquam officiis omnis animi voluptates, delectus distinctio, sapiente nesciunt vitae rerum unde velit, repudiandae dolorem pariatur placeat!</p>
+      <div class="commitment center">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure quaerat ullam deleniti porro quisquam officiis
+          omnis animi voluptates, delectus distinctio, sapiente nesciunt vitae rerum unde velit, repudiandae dolorem
+          pariatur placeat!</p>
       </div>
       <ul class="contact-us">
         <li>Lorem</li>
         <li>Lorem</li>
         <li>Lorem</li>
         <li>Lorem</li>
-        <br>
         <li>Lorem</li>
         <li>Lorem</li>
         <li>Lorem</li>
       </ul>
-      <img src="" alt="">
-      <img src="" alt="">
     </footer>
   </div>
 </body>
