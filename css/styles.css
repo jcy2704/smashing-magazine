@@ -260,3 +260,44 @@ a {
   padding: 10px 20px;
   background-color: rgb(117, 117, 117);
 }
+
+.latest-bottom {
+  padding-bottom: 40px;
+}
+
+.smashing-tv {
+  width: 1500px;
+  height: 661px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(59, 59, 59);
+  border-radius: 10px;
+  padding: 40px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+.smashing-tv h2 {
+  font-size: 40px;
+}
+
+.smashing-tv h2 a {
+  text-decoration: underline;
+}
+
+.tv-paragraph {
+  font-size: 20px;
+  font-weight: 100;
+  padding-bottom: 70px
+}
+
+.tv-have-acc {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.all-latest {
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
