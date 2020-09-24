@@ -26,6 +26,7 @@ ul {
 }
 
 .grid {
+  display: -ms-grid;
   display: grid;
 }
 
@@ -34,7 +35,7 @@ ul {
 }
 
 .bbx {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 .inline {
@@ -106,7 +107,7 @@ ul {
 .menu {
   justify-content: space-between;
   margin: 0;
-  padding: 0px;
+  padding: 0;
   width: 100%;
 }
 
@@ -143,7 +144,6 @@ ul {
   background-color: rgb(53, 53, 53);
   padding: 0.3em 0.4em;
   line-height: 1.5em;
-  box-decoration-break: clone;
 }
 
 .articles-grid {
@@ -165,7 +165,7 @@ ul {
 .author-cont {
   display: inline-block;
   top: -40px;
-  padding-left: 20px
+  padding-left: 20px;
 }
 
 .author {
@@ -250,7 +250,7 @@ ul {
 }
 
 .latest-ft-cont h2 {
-  font-size: 40px
+  font-size: 40px;
 }
 
 .latest-features {
@@ -312,7 +312,7 @@ ul {
 
 .tv-paragraph {
   font-weight: 100;
-  padding-bottom: 70px
+  padding-bottom: 70px;
 }
 
 .tv-have-acc {
@@ -409,7 +409,6 @@ ul {
   height: 655px;
   padding: 0 400px;
   padding-top: 100px;
-
 }
 
 .footer ul li {
