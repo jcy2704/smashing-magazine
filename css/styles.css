@@ -8,9 +8,9 @@ a {
   color: inherit;
 }
 
-.main-body {
-  margin: 0 auto;
-  max-width: 1440px;
+.font {
+  font-family: "MijaW03-Regular", sans-serif;
+  font-weight: 700;
 }
 
 .top-header {
@@ -95,14 +95,14 @@ a {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 650px 600px;
-  padding-top: 230px;
-  padding-bottom: 30px;
+  padding-top: 170px;
+  padding-bottom: 50px;
   background-color: rgb(70, 70, 70);
 }
 
 .ft-article {
   width: 570px;
-  padding: 50px;
+  padding: 80px;
 }
 
 .ft-article h1 {
@@ -143,6 +143,7 @@ a {
   position: relative;
   height: 460px;
   background: rgb(180, 179, 179);
+  padding-bottom: 30px;
 }
 
 .membership-img {
@@ -173,22 +174,32 @@ a {
   padding: 20px;
   border-radius: 10px;
   background-color: rgb(87, 87, 87);
+  border: 0;
 }
 
 .latest-articles h3 {
   margin: 0;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .latest-cont {
-  width: 480px;
+  width: 500px;
   padding: 20px;
   background: lightgrey;
 }
 
-.latest-cont p {
-  font-size: 22px;
-  line-height: 1.5em;
+.date {
+  font-size: 10px;
+}
+
+.article-author {
+  font-size: 12px;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 1.8em;
+  font-weight: 100;
 }
 
 .latest-top {
@@ -199,19 +210,22 @@ a {
   height: 800px;
 }
 
+.latest-ft-cont {
+  padding-bottom: 100px;
+}
+
+.latest-ft-cont h2 {
+  font-size: 40px
+}
+
 .latest-features {
   color: white;
-  width: 480px;
+  width: 500px;
   text-align: center;
-  padding: 50px 75px;
+  padding: 20px;
   background-color: rgb(59, 59, 59);
   border-radius: 8px;
   border: 0;
-}
-
-.latest-features p {
-  font-size: 22px;
-  line-height: 1.5em;
 }
 
 .latest-features button {
@@ -220,8 +234,13 @@ a {
   border-radius: 10px;
 }
 
+.have-acc {
+  font-size: 12px;
+  font-weight: 100;
+}
+
 .shopify-logo {
-  width: 480px;
+  width: 500px;
   padding: 20px;
   background-color: lightgrey;
   text-align: center;
