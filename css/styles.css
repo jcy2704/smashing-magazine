@@ -204,10 +204,13 @@ a {
 
 .latest-top {
   height: 542px;
+  justify-content: space-around;
+
 }
 
 .latest-mid {
   height: 800px;
+  justify-content: space-around;
 }
 
 .latest-ft-cont {
@@ -300,4 +303,120 @@ a {
   text-align: center;
   text-decoration: underline;
   padding-bottom: 20px;
+}
+
+.click {
+  text-align: center;
+  background-color: rgb(82, 82, 82);
+  padding: 50px 0;
+  
+}
+
+.click h2 {
+  font-size: 42px;
+}
+
+.click button {
+  font-size: 26px;
+  padding: 20px;
+  border-radius: 10px;
+  display: block;
+  margin: 60px auto;
+}
+
+.click-p {
+  font-size: 24px
+}
+
+.curated-week {
+  width: 1300px;
+  margin: 0 auto;
+  height: 250px;
+  padding: 50px 25px;
+}
+
+.curated-week img {
+  float: left;
+}
+
+.curated-week h3{
+  margin: 0;
+}
+
+.curated-title {
+  background-color: rgb(170, 170, 170);
+}
+
+
+.week-content{
+  position: relative;
+  left: 40px;
+  top: 30px;
+  padding-right: 20px;
+}
+
+.curated-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 300px 300px 300px;
+  padding: 35px;
+  background-color: lightgray;
+  margin-bottom: 50px ;
+}
+
+.curated-item {
+  display: inline-block;
+  padding: 20px;
+}
+
+.featured {
+  position: relative;
+  background-color: rgb(161, 159, 159);
+  height: 400px;
+}
+
+.featured img {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.featured-cont {
+  padding: 50px;
+  width: 1000px;
+}
+
+.guides {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 460px 800px;
+  margin-bottom: 20px;
+}
+
+.lg-bgc {
+  background-color: lightgrey;
+}
+
+.g-bgc {
+  background-color: grey;
+}
+.guide-article{
+  padding: 80px;
+}
+.footer{
+  height: 655px;
+  text-align: center;
+  padding: 0 400px;
+  padding-top: 100px;
+  
+}
+.footer ul li {
+  display: inline;
+  font-size: 24px;
+  margin: 10px;
+}
+.commitment {
+  padding: 30px 0 ;
+  width: 500px;
+  margin: 0 auto;
 }
