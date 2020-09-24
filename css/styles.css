@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-body {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.top-header {
+  background-color: gray;
+  display: grid;
+  grid-template-columns: min-content minmax(140px,2fr) 0 minmax(100px,350px);
+  height: 103px;
+  align-items: center;
+  padding: 1rem 2em;
+  box-sizing: border-box;
+  column-gap: 10px;
+  justify-content: flex-start;
+}
+
+.nav-bar {
+  box-sizing: border-box;
+}
+
+.logo-img {
+  width: 200px;
+  margin-top: 10px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0px;
+  width: 100%;
+
+}
+
+.menu li {
+  display: inline;
+  font-size: 21px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+.searchbar {
+  margin-left: 20px;
+  background-color: white;
+  border-radius: 11px;
+  width: 300px;
+  height: 30px;
+  padding-left: 40px;
+}
+
+.search-input {
+  border: 0;
+  height: 30px;
+}
+
+.articles-container {
+  margin-top: 50px;
+}
+
+.title-cont {
+  text-align: center;
+}
+
+.main-title {
+  color: white;
+}
+
+.main-title span {
+  background-color: rgb(53, 53, 53);
+  padding: .3em .4em;
+  line-height: 1.5em;
+}
