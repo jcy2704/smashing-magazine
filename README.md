@@ -1,12 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Old Apple Page
+# Smashing Magazine
 
-> The Old Apple page, had many fundaments such as on how to use an image as a background, the use of gradient, and grid.
+A Smashing Magazine Heatmap based on visual hierarchy. Grid and Flexbox used for most of the positioning on the page.
 
-![screenshot](Screenshot.png)
+![screenshot](app_screenshot.png)
 
-The project was created based on an Old site of Apple. We based our project on the site for the learning on how to use an image as a background as well as how to use gradients.
 
 ## Built With
 
@@ -15,12 +14,11 @@ The project was created based on an Old site of Apple. We based our project on t
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/jcy2704/Old-apple/d4be6118eb8e619dba0a63a1882d4cf0e7dd93a9/index.html)
-
+[Live Demo Link](https://raw.githack.com/jcy2704/smashing-magazine/design-ux/index.html)
 
 ## Getting Started
 
-**This project was created for the sole purpose of learning how to use CSS gradient and image as background. The following will be instructions on how you can see the project on your own computer.**
+**This project was created for the sole purpose of understand design practices and UX. The following will be instructions on how you can see the project on your own computer.**
 
 
 To get a local copy up and running follow these simple example steps.
@@ -48,17 +46,17 @@ Linters errors
 - Twitter: [@yiak_](https://twitter.com/yiak_)
 - LinkedIn: [Steven Jack Chung](https://linkedin.com/in/stevenjchung)
 
-👤 **Mir Rawshan Ali**
+👤 **Janluc Saneaux**
 
-- GitHub: [@sumon0002009](https://github.com/sumon0002001)
-- Twitter: [@sumon0002009](https://twitter.com/Sumon0002009)
-- LinkedIn: [Mir Rawshan Ali](https://www.linkedin.com/in/mir-rawshan-ali-27b6a5198/)
+- GitHub: [@Janluc](https://github.com/Janluc)
+- Twitter: [@Janluc123](https://twitter.com/Janluc123)
+- LinkedIn: [Janluc Saneaux](https://www.linkedin.com/in/janluc-saneaux-91707a1b4/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/jcy2704/Old-apple/issues).
+Feel free to check the [issues page](https://github.com/jcy2704/smashing-magazine/issues).
 
 ## Show your support
 
@@ -68,4 +66,4 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- New York Times
+- Smashing Magazine
