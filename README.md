@@ -50,7 +50,7 @@ Linters errors
 
 - GitHub: [@Janluc](https://github.com/Janluc)
 - Twitter: [@Janluc123](https://twitter.com/Janluc123)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/janluc-saneaux-91707a1b4/)
+- LinkedIn: [Janluc Saneaux](https://www.linkedin.com/in/janluc-saneaux-91707a1b4/)
 
 ## 🤝 Contributing
 
